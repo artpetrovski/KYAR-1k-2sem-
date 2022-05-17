@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laba13(1).css">
+    <title>Лабораторная 14</title>
+</head>
+<body>
+    <form action="#">
+    <fieldset class="first">
+        <legend>Данные о пользователе</legend>
+        <label for="name">Имя:</label>
+        <input id="name"placeholder="Артём"><br>
+        <label for="surname">Фамилия: <em>*</em></label>
+        <input id="surname" required placeholder="Демьяник"><br>
+        <label for="patronymic">Отчество:</label>
+        <input id="patronymic" placeholder="Дмитриевич"><br>
+        <legend id="sex"> ваш пол:</legend>
+        <label for="sex_men">мужской</label>
+        <input name="sex" type="radio" id="sex_men"><br>
+        <label for="woman">женский</label>
+        <input name="sex" type="radio" id="sex_woman"><br>
+    </fieldset>
+    <fieldset class="second">
+        <legend>Анкета</legend>
+        Какую специальность вы считаете перспективной?
+        <label for="izd">
+            <input id="izd" type="checkbox"> Издательское дело</label>
+        <label for="chemistry">
+            <input id="chemisty" type="checkbox"> Химия</label>
+        <label for="programming">
+            <input id="programming" type="checkbox"> Программирование</label>
+        <label for="design">
+            <input id="design" type="checkbox"> Дизайн электронных и веб-изданий</label>
+    </fieldset>
+    Дополнительные услуги
+    <select id="dop"> 
+        <optgroup label="1.01 Дизайн электронных и веб-изданий">
+            <option>Леция 01: Виды сайтов</option>
+            <option>Леция 02: Прототип</option>
+            <option>Леция 03: Макет</option>
+       </optgroup>  
+       <optgroup label="1.02 Компьютерные язвки разметки">
+        <option>Леция 01: Html</option>
+        <option>Леция 02: CSS</option>
+     </optgroup>  
+      </select>
+    
+    <label class="year" for="year">Курс</label>
+    <input type="number" value="1" min="1" max="4" id="year"><br>
+    <input type="file"><br>
+    <input type="submit">
+    <input type="reset">
+</form>
+</body>
+</html>

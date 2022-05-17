@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 7</title>
+    <style>
+        #table2{
+            border-style: dashed;
+            border-spacing: 10px ;
+        }
+    </style>
+</head>
+<body>
+    <!--1-->
+    <table border="1px"> 
+        <caption>Таблица №1</caption>
+        <tr>
+            <td>Ячейка 1</td> <td>Ячейка 2</td><td>Ячейка 3</td>
+        </tr>
+        <tr>
+            <td>Ячейка 4</td> <td>Ячейка 5</td> <td>Ячейка 6</td>    
+        </tr>
+        <tr>
+            <td>Ячейка 7</td><td>Ячейка 8</td> <td>Ячейка 9</td>
+        </tr>
+    </table>
+<hr>
+<!--2-->
+    <table id="table2" border="2px" >
+        <caption>Таблица №2</caption>
+        <tr>
+            <td>Ячейка 1</td> <td>Ячейка 2</td><td>Ячейка 3</td>
+        </tr>
+        <tr>
+            <td>Ячейка 4</td> <td>Ячейка 5</td> <td>Ячейка 6</td>    
+        </tr>
+        <tr>
+            <td>Ячейка 7</td><td>Ячейка 8</td> <td>Ячейка 9</td>
+        </tr>
+    </table>
+    <hr>
+    <!--3-->
+    <table border="1px">
+        <caption>Таблица №3</caption>
+        <tr><th>Покупатель</th> <th>Товар</th> <th>Сумма</th> <th>Национальность</th></tr>
+        <tr><td>Иванов</td> <td>Часы</td> <td>100 руб</td> <td>Белорус</td> </tr>
+        <tr><td>Прикольный</td> <td>Пирожок</td> <td>1 руб</td> <td>Русич</td> </tr>
+        <tr><td>Классный</td> <td>Квартира</td> <td>60к$</td> <td>Кауказэц</td></tr>
+        <tr><td>Абобушка</td> <td>Подушка</td> <td>10 руб</td> <td>Таджик</td> </tr>
+    </table>
+    <!--4-->
+    <hr>
+    <caption>Таблица №4</caption>
+    <table border="1" width="30%">
+        <tr>
+            <td>хурма</td>
+            <td rowspan="3">хурма</td>
+            <td>персики</td>
+        </tr>
+        <tr>
+            <td>бананы</td>
+            
+            <td rowspan="2">груши</td> 
+        </tr>
+        <tr>
+            <td>авокадо</td>
+            
+        </tr>
+    </table>
+    <!--4.1-->
+    <hr>
+    <caption>Таблица №4.1</caption>
+    <table border="1" width="40%" >
+        <tr>
+            <td>1</td>
+            <td colspan="2">2</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">4</td>
+            <td colspan="3">5</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="2">4.1</td>
+            <td colspan="2" rowspan="2">6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td colspan="2">7.1</td>   
+        </tr>
+    </table>
+    <hr>
+     <!-- 6
+     <table>
+         <thead>
+             <tr>
+                 <td>Шапка страницы</td>
+             </tr>
+         </thead>
+         <tfoot>
+             <tr>
+                 <td>Футер таблицы</td>
+             </tr>
+         </tfoot>
+         <tbody>
+             <tr>
+                 <td>Тело таблицы</td>
+             </tr>
+         </tbody>
+     </table> -->
+     <table border="1px" width="50%">
+        <thead>
+            <tr>
+                <th> </th>
+                <th> ОНТ </th>
+                <th> Sony Sci-Fi </th>
+                <th> TV1000 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>18:00</td>
+                <td>Мужское/Женское</td>
+                <td rowspan="2">Доктор Кто. 4 сезон</td>
+                <td>Элементарно</td>
+            </tr>
+            <tr>
+                <td>19:00</td>
+                <td>На самом деле</td>
+                <td rowspan="2">Форрест Гамп</td>     
+            </tr>
+            <tr>
+                <td>20:00</td>
+                <td>Жить здорово!</td>
+                <td rowspan="3">Агент Картер. 2 сезон.</td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td>Время</td>
+                <td rowspan="2" >Побег из Шоушенка</td>
+            </tr>
+            <tr>
+                <td>22:00</td>
+                <td rowspan="2">Многосерийный фильм "Вторая жизнь"</td>
+            </tr>
+            <tr>
+                <td>23:00</td>
+                <td>Американские боги. 2 сезон</td>
+                <td>Элементарно</td>
+            </tr>
+            <tr>
+                <td>24:00</td>
+                <td colspan="3">Перерыв в вещании</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

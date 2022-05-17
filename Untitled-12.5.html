@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 12.5</title>
+    <style>
+p[class]{
+    color: rgb(212, 65, 84);
+    font-size: 20px;
+}
+a[target^="_blank"]{
+color: rgb(85, 42, 165);
+}
+ a[href$="ru"]{
+color: rgb(233, 54, 0);
+}
+ a[href$="com"]{
+color: rgb(38, 0, 88);
+}
+ a[href*="instagram"]{
+color: rgb(12, 61, 0);
+}
+p[class~="fifth"]{
+    font-size: 25px;
+    color: cornflowerblue;
+}
+    </style>
+</head>
+<body>
+    <p class="first">Простой селектор атрибута</p>
+    <p class="second"><ul>Кто украл фломастер?
+        <li> <a target="_blank">Александр</a></li>
+        <li><a>Анастасия</a></li>
+    </ul></p>
+    <p class="third"><ul>
+        Топ сайтов с мемами:
+        <li> <a href="https://dtf.ru">Александр</a></li>
+        <li><a href="https://www.reddit.com">Анастасия</a></li>
+    </ul></p>
+    <p class="fourth"><ul>
+        Вк и Инст:
+        <li> <a href="https://vk.com">Александр</a></li>
+        <li><a href="https://www.instagram.com">Анастасия</a></li>
+    </ul></p></p>
+    <p class="fifth">Одно из нескольких значений атрибута</p>
+</body>
+</html>

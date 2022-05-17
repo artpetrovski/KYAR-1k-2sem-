@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .zaklad{
+            background-color: white;
+            width: 500px;
+            height: 300px;
+            position: relative;
+        }
+        .img1{
+            width: 40px;
+            position: absolute;
+            right: 25px;
+            top: 25px;
+        }
+        .img2{
+            width: 40px;
+            position: fixed;
+            left: 25px;
+            top: 25px;
+        }
+        .square{
+            width: 100px;
+            height: 100px;
+            position: sticky;
+            top:0;
+            background-color: yellow;
+        }
+        .pizaz{
+            width: 400px;
+            position: relative;
+            top: 25px;
+            left: 50px;
+        }
+        .sub{
+            position: absolute;
+            top: 20px;
+            left: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="zaklad"> 
+        <img class="img1" src="zaklad1.png" alt="">
+        <img class="img2" src="strelka.jpg" alt="">
+    </div>
+    <br>
+    <div class="zaklad"> 
+    <div class="square"></div> 
+    </div>
+    <br>
+    <div class="zaklad">
+        <img class="pizaz" src="pizaz.jpg" alt="">
+        <p class="sub">Это прекрасно-существовать!</p>
+    </div>
+</body>
+</html>

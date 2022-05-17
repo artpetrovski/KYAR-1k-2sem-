@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная 19</title>
+    <style>
+        .sp1{
+            text-decoration: line-through;
+        }
+        .sp2{
+            text-decoration: underline;
+        }
+        .sp3{
+            text-decoration: overline;
+        }
+        .sp4{
+            text-transform: uppercase;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: chartreuse;
+        }
+        .sp5{
+            text-decoration-line: underline ;
+            text-decoration-style: double;
+            text-decoration-color: orange;
+        }
+        .sp6{
+            text-shadow: 0px 0px 25px rgb(204, 2, 2);
+        }
+        .sp7{
+            font-size: 40px;
+            font-weight: 900;
+            color: aliceblue;
+            text-shadow: 1px 1px 0px black, 2px 2px 0px white, 
+                         3px 3px 0px black, 4px 4px 0px white, 
+                         5px 5px 0px black, 6px 6px 0px white,
+                         7px 7px 0px black, 8px 8px 0px white,
+                         9px 9px 0px black, 10px 10px 0px white;
+        }
+        .sp8{
+            font-size: 50px;
+            font-weight: 900;
+            color: antiquewhite;
+            text-shadow: 1px 2px 2px #bb1c59, 6px 2px 2px #bb1c597e, 
+                         10px 2px 2px #bb1c593f, 14px 2px 2px rgba(187, 28, 89, 0.13);
+        }
+        .sp9::first-line{
+            letter-spacing: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="sp1">Создайте перечеркнутый текст</span> <br>
+        <span class="sp2">Создайте подчеркнутый текст</span> <br>
+        <span class="sp3">Создайте с линией над текстом</span> <br>
+        <span class="sp4">Создайте html-документ с подчеркнутым волнистой линией текстом. Линия должна быть цветная. Все буквы должны быть прописными.</span> <br>
+        <span class="sp5">Создайте текст, подчеркнутый двойной линией оранжевого цвета.</span> <br>
+        <span class="sp6">Добавьте тень к любому из текстов.</span>
+    <div style="background-color: blueviolet; width: 230px; padding: 20px;"> 
+        <span class="sp7">Тень текста</span>
+    </div>
+    <div style="background-color:antiquewhite; width: 300px; padding: 20px;">
+<span class="sp8">Привет!</span>
+    </div>
+    <p style="width: 310px;" class="sp9">Создайте абзац текста. Установите интервал между буквами равный 7 px. Применятся он должен только к первой строке.</p>
+    
+</body>
+</html>
